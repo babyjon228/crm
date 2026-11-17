@@ -47,7 +47,7 @@ button{cursor:pointer}
 .scn .reset{margin-top:10px;border:0;background:none;color:var(--muted);font-size:12px;padding:0;text-decoration:underline}
 .scn-top{display:none}
 
-.main{min-width:0;padding-block:22px 40px;padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px));max-width:1360px;width:100%;margin-inline:auto}
+.main{min-width:0;padding-block:22px 40px;padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px));max-width:1320px;width:100%;margin-inline:auto}
 .top{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px}
 .top h1{margin:0;font-family:var(--f-display);font-size:24px;font-weight:600;letter-spacing:-.01em;text-wrap:balance}
 .top .sub{color:var(--muted);margin-top:4px}
@@ -202,7 +202,4 @@ svg.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
   .hbar{grid-template-columns:90px minmax(0,1fr) 76px}
   .search{max-width:none}
 }
-/* Large desktops: wider content, slightly larger type */
-@media (min-width:1700px){.app{grid-template-columns:260px minmax(0,1fr)}.main{max-width:1560px;padding-left:40px;padding-right:40px;padding-top:32px}}
-@media (min-width:2200px){html{font-size:16px}body{font-size:15px}.app{grid-template-columns:280px minmax(0,1fr)}.main{max-width:1840px}.top h1{font-size:28px}.kpi .v{font-size:32px}.card{padding:22px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
